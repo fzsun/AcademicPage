@@ -19,3 +19,14 @@ Operations research; Applied mathematical programming; Production planning and s
 
 1. F.Bar, J.Doe: Effects of having a placeholder of a name
 2. S.Holmes, J.Watson: Consequences of living with a sociopath in London-->
+
+---
+
+* [fangzhou@vt.edu](mailto:fangzhou@vt.edu)
+* [LinkedIn](https://www.linkedin.com/in/fangzhousun)
+
+## Mailing Address
+
+> 250 Durham Hall (MC 0118), \\
+> 1145 Perry Street,  \\
+> Blacksburg, VA 24061
