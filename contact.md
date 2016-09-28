@@ -21,4 +21,5 @@ is_contact: true
 
 ## Social
 
-1. [Linkedin](#)
+1. [LinkedIn](https://www.linkedin.com/in/fangzhousun)
+2. [500px](https://500px.com/findmusic)
