@@ -3,7 +3,7 @@ layout: default
 is_contact: true
 ---
 
-* Email: [fangzhou@vt.edu](mailto:fangzhou@vt.edu)
+* [fangzhou@vt.edu](mailto:fangzhou@vt.edu)
 * [LinkedIn](https://www.linkedin.com/in/fangzhousun)
 
 
