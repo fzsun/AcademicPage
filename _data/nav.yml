@@ -2,6 +2,7 @@
   link: "contact"
 
 - name: "Resume"
-  link: "resume_academic_Fangzhou_Sun.pdf"
+  link: "resume.pdf"
 
-
+- name: "About"
+  link: "/researcher/"
