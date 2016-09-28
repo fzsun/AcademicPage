@@ -12,7 +12,7 @@ Fangzhou Sun is a Ph.D. candidate in the [Grado Department of Industrial and Sys
 
 Operations research; Applied mathematical programming; Analyzing and designing algorithms for the control of logistics and production systems.
 
-## Publications
+<!--## Publications
 
 1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
+2. S.Holmes, J.Watson: Consequences of living with a sociopath in London-->
