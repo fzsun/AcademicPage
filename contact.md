@@ -3,24 +3,22 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+* Email: [fangzhou@vt.edu](mailto:fangzhou@vt.edu)
 
-* Phone: [+91-123123](tel:+91-123123)
+
 
 ---
 
 ## Mailing Address
 
-> 221B, Baker Street
->
-> London
->
-> United Kingdom
+> 250 Durham Hall (MC 0118),
+> 
+> 1145 Perry Street, 
+> 
+> Blacksburg, VA 24061
 
 ---
 
 ## Social
 
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)
+1. [Linkedin](#)
