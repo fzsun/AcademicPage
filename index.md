@@ -16,7 +16,7 @@ Operations research; Applied mathematical programming; Production planning and s
 
 ---
 
-* [fangzhou@vt.edu](mailto:fangzhou@vt.edu)
+* [my first name]@vt.edu
 * [LinkedIn](https://www.linkedin.com/in/fangzhousun)
 
 
