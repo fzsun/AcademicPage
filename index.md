@@ -14,7 +14,7 @@ I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engine
 * Operations research
 * Applied mathematical programming 
 * Production planning and scheduling
-* Design and control of complex supply chain networks.
+* Design and control of complex supply chain networks
 
 ## Education
 
