@@ -11,15 +11,15 @@ I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engine
 
 ## Research Interest
 
-* Operations research; 
-* Applied mathematical programming; 
-* Production planning and scheduling; 
+* Operations research
+* Applied mathematical programming 
+* Production planning and scheduling
 * Design and control of complex supply chain networks.
 
 ## Education
 
-* M.S., Industrial and Systems Engineering, Virginia Tech, 2016
-* B.E., Industrial Engineering, Tongji University, 2013
+* M.S., Industrial and Systems Engineering, [Virginia Tech](http://www.vt.edu/), 2016
+* B.E., Industrial Engineering, [Tongji University](http://www.tongji.edu.cn/), 2013
 
 ---
 
