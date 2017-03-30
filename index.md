@@ -11,10 +11,10 @@ I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engine
 
 ## Research Interest
 
-* Operations research
-* Applied mathematical programming 
+* Operations research / applied mathematical programming 
 * Production planning and scheduling
 * Design and control of complex supply chain networks
+* Pricing and revenue management
 
 ## Education
 
