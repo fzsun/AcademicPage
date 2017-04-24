@@ -22,15 +22,17 @@ I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engine
 * M.S., Industrial and Systems Engineering, Virginia Tech, 2016
 * B.E., Industrial Engineering, [Tongji University](http://www.tongji.edu.cn/), 2013
 
----
+## Contact
 
 * [my first name]@vt.edu
 
 * [LinkedIn](https://www.linkedin.com/in/fangzhousun)
 
 
----
 
-Last update: April 24, 2017
+<br><br><br><br>
+
+
+<sub>Last update: April 24, 2017</sub>
 
 
