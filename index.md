@@ -18,7 +18,8 @@ I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engine
 
 ## Education
 
-* M.S., Industrial and Systems Engineering, [Virginia Tech](http://www.vt.edu/), 2016
+* Ph.D., Operations Research, Virginia Tech, Fall 2018 (expected)
+* M.S., Industrial and Systems Engineering, Virginia Tech, 2016
 * B.E., Industrial Engineering, [Tongji University](http://www.tongji.edu.cn/), 2013
 
 ---
@@ -26,4 +27,11 @@ I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engine
 * [my first name]@vt.edu
 
 * [LinkedIn](https://www.linkedin.com/in/fangzhousun)
+
+<footer>
+  <p>Posted by: Hege Refsnes</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer>
+
 
