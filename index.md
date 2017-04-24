@@ -28,10 +28,9 @@ I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engine
 
 * [LinkedIn](https://www.linkedin.com/in/fangzhousun)
 
-<footer>
-  <p>Posted by: Hege Refsnes</p>
-  <p>Contact information: <a href="mailto:someone@example.com">
-  someone@example.com</a>.</p>
-</footer>
+
+---
+
+Last update: April 24, 2017
 
 
