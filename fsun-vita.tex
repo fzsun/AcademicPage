@@ -1,0 +1,351 @@
+\documentclass[11pt,letterpaper]{article}
+% compile with xelatex
+\def\myauthor{Fangzhou Sun}
+\def\mytitle{fsun-vita}
+\def\myemail{fzsun@vt.edu}
+\def\myphone{(540) 750-0370}
+\def\myweb{sun.fangzhou.me}
+\def\mykeywords{
+  fangzhou sun,
+  resume, 
+  curriculum, 
+  vita, 
+  curriculum vita, 
+  cv
+}
+
+\setlength\parindent{0pt}
+
+\newenvironment{itemize*}%
+{\begin{itemize}%
+  \setlength{\itemsep}{0pt}}%
+{\end{itemize}}
+
+\usepackage{url}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\setlist{nolistsep,leftmargin=0.15in}
+\usepackage[log-declarations=false]{xparse}
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage[top=.5in,bottom=0.5in,right=.4in,left=1.4in]{geometry}
+\usepackage[strict]{changepage}
+\usepackage[
+  ocgcolorlinks,
+  urlcolor={[rgb]{0,0,0.54}},
+  unicode,
+  plainpages=false,
+  pdfpagelabels,
+  pdftitle={\mytitle},
+  pdfauthor={\myauthor},
+  pdfkeywords={\mykeywords}
+]{hyperref}
+
+% fix ocgcolor link breaking; thanks due to Benjamin Lerner (http://goo.gl/VZKR7M)
+\makeatletter
+\AtBeginDocument{%
+  \newlength{\temp@x}%
+  \newlength{\temp@y}%
+  \newlength{\temp@w}%
+  \newlength{\temp@h}%
+  \def\my@coords#1#2#3#4{%
+    \setlength{\temp@x}{#1}%
+    \setlength{\temp@y}{#2}%
+    \setlength{\temp@w}{#3}%
+    \setlength{\temp@h}{#4}%
+    \adjustlengths{}%
+    \my@pdfliteral{\strip@pt\temp@x\space\strip@pt\temp@y\space\strip@pt\temp@w\space\strip@pt\temp@h\space re}}%
+  \ifpdf
+    \typeout{In PDF mode}%
+    \def\my@pdfliteral#1{\pdfliteral page{#1}}% I don't know why % this command...
+    \def\adjustlengths{}%
+  \fi
+  \ifxetex
+    \def\my@pdfliteral #1{\special{pdf: literal direct #1}}% isn't equivalent to this one
+    \def\adjustlengths{\setlength{\temp@h}{-\temp@h}\addtolength{\temp@y}{1in}\addtolength{\temp@x}{-1in}}%
+  \fi%
+  \def\Hy@colorlink#1{%
+    \begingroup
+      \ifHy@ocgcolorlinks
+        \def\Hy@ocgcolor{#1}%
+        \my@pdfliteral{q}%
+        \my@pdfliteral{7 Tr}% Set text mode to clipping-only
+      \else
+        \HyColor@UseColor#1%
+      \fi
+  }%
+  \def\Hy@endcolorlink{%
+    \ifHy@ocgcolorlinks%
+      \my@pdfliteral{/OC/OCPrint BDC}%
+      \my@coords{0pt}{0pt}{\pdfpagewidth}{\pdfpageheight}%
+      \my@pdfliteral{F}% Fill clipping path (the url's text) with current color
+      \my@pdfliteral{EMC/OC/OCView BDC}%
+      \begingroup%
+        \expandafter\HyColor@UseColor\Hy@ocgcolor%
+        \my@coords{0pt}{0pt}{\pdfpagewidth}{\pdfpageheight}%
+        \my@pdfliteral{F}% Fill clipping path (the url's text) with \Hy@ocgcolor
+      \endgroup%
+      \my@pdfliteral{EMC}%
+      \my@pdfliteral{0 Tr}% Reset text to normal mode
+      \my@pdfliteral{Q}%
+    \fi
+    \endgroup
+  }%
+}
+\makeatother
+% end fixes
+
+
+\newcommand{\mhead}[1]{\leavevmode\marginpar{\sffamily #1}}
+\newcommand{\rdate}[1]{{\addfontfeature{Numbers=OldStyle} \hfill #1}}
+\renewcommand{\date}[1]{{\addfontfeature{Numbers=OldStyle} #1}}
+\renewcommand{\labelitemi}{-} 
+
+\setmainfont[
+  Ligatures={TeX,Common},
+  BoldFont={AGaramondPro-Semibold},
+]{Adobe Garamond Pro}
+\setsansfont[
+  Ligatures={TeX,Common},
+  Letters=SmallCaps,
+  Color=660000,
+]{Adobe Garamond Pro}
+\setmonofont{FontAwesome}
+
+\pagestyle{fancy} 
+	\setlength\headwidth{7.7in} 
+	\lhead{\textsc{Fangzhou Sun}}
+	\rhead{\textsc{\thepage{} of \pageref*{LastPage}}} \cfoot{}
+	\thispagestyle{empty}
+
+\begin{document} \flushbottom \thispagestyle{empty} \setlength\headheight{0in} 
+\begin{adjustwidth}{-1in}{}
+{\Huge
+  {\textsc{%
+    {\addfontfeature{Style=TitlingCaps}F}angzhou 
+    %({\addfontfeature{Style=TitlingCaps}L}eo)
+    {\addfontfeature{Style=TitlingCaps}S}un}
+  }
+}
+\hfill\hfill\hfill
+{
+  \begin{minipage}[b]{1.7in}
+    \flushleft \footnotesize 
+    1740 Donlee Dr., \\
+    Blacksburg, VA 24060
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{1.6in}
+    \flushright \footnotesize 
+    \href{mailto:\myemail}{\myemail} \\
+    \href{tel:\myphone}{\myphone} \\
+    \href{http://sun.fangzhou.me}{\myweb} %\href{http://www.linkedin.com/in/fangzhousun}{\texttt{}}\quad ~ 
+  \end{minipage}
+}\par
+\hrulefill
+\end{adjustwidth}  
+\reversemarginpar 
+\setlength\marginparwidth{.85in}
+
+%-----------------Objective-------------------------------
+%\mhead{Objective}%
+%Seeking full time opportunities in areas of optimization, forecasting, data analytics, with applications in revenue management and control of production/logistics/supply chain systems. 
+
+%\bigskip
+
+%-----------------Summary-------------------------------
+\mhead{Summary}%
+- 6$+$ years of experience in IE/OR; 3$+$ years of experience in data science; 7$+$ years of experience in programming.  \\
+- Over 5 hands-on project experiences in building optimization/simulation-based decision support tools. \\
+- Energetic self starter, outstanding analytical ability and strong communication skills.
+
+\bigskip
+%---------------------Education---------------------------
+\mhead{Education}%
+\textbf{Virginia Polytechnic Institute and State University (Virginia Tech)}, Blacksburg, VA  
+
+\hangindent=1em - {Ph.D. in \href{https://www.ise.vt.edu/}{Operations Research}}  (GPA: 3.92/4.00) \rdate{\textsc{Summer} 2018 (\textsc{expected})} \\
+ $\circ$ Advisor: \href{https://www.ise.vt.edu/People/Faculty/Bios/Sarin_bio.html}{Dr. Subhash C. Sarin}. 
+
+\hangindent=1em - {M.S. in Industrial and Systems Engineering}  (GPA: 3.90/4.00)\rdate{2016} 
+
+\medskip
+\textbf{Tongji University,} Shanghai, China 
+
+\hangindent=1em - {B.E. in {Industrial Engineering}} (GPA: 4.64/5.00; Rank: 2/55)   \rdate{2013}  \\
+	$\circ$ Thesis: {Scheduling of parallel machines with group maintenance considerations.}
+
+\bigskip
+%-----------------Computer Skills-----------------------------
+ \mhead{Computer Skills}% 
+~\\[-.8em] 
+  \begin{minipage}[b]{3 in}
+    \textbf{Programming Languages:} C$++$, C\#, VBA. \\
+    \textbf{Optimization:} CPLEX/OPL, AMPL. \\
+    \textbf{Scientific Computing:} R, Mathematica.
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{3 in}
+    \textbf{Database:} SQL, Access. \\
+    \textbf{Simulation:} AutoMod, ProModel, Simio.\\
+    \textbf{Others:} AutoCAD.
+  \end{minipage}
+  \hfill
+
+
+\bigskip
+%--------------------Graduate Coursework----------------------------
+\mhead{Graduate \newline Coursework}%
+\hangindent=1em \textbf{Operations Research:} Linear/Nonlinear/Integer/Dynamic Programming, Scheduling and Sequencing Theory, Random Processes, Simulation.
+	
+\smallskip
+\hangindent=1em \textbf{Statistics \& Mathematics:} Probability Theory, Statistical Inference, Machine Learning,  Real Analysis.
+
+\smallskip
+\hangindent=1em \textbf{Manufacturing \& Logistics:} Manufacturing Systems Engineering, Production Planning \& Control, Lean Manufacturing, Semiconductor Manufacturing, Inventory and Operations Management.
+	
+
+
+
+
+\bigskip
+%-----------------------Related Experience-------------------------
+
+\mhead{Related \newline Experience}%
+%\textbf{Intern - Science and Research}, \textit{PROS,} Houston, TX \rdate{\textsc{Summer} 2017} 
+%\begin{itemize*}
+%	\item Proposed an iterative two-stage approach for the strategic network design and the operational decisions. 
+%	\item Refined the original IP formulation, which resulted in a more compact and tighter model. Computational test revealed a reduction of the solution time by $10^3 +$ times.
+%\end{itemize*}
+%
+%\medskip
+%
+\textbf{Virginia Tech}, Blacksburg, VA  \\
+\textbf{(Winner)}\textit{ IISE Student Case Competition in Logistics and Supply Chain}  \rdate{\textsc{Feb 2017 -- Mar 2017}}
+\begin{itemize*}
+	\item Proposed an iterative two-stage approach for the strategic network design and the operational decisions. 
+	\item Refined the original IP formulation, which resulted in a more compact and tighter model. Computational test revealed a reduction of the solution time by $10^3 +$ times.
+	\item Coded a computer decision support tool based on our proposed approach (C$++$ with CPLEX). 
+	\item Visualized our solution by the multidimensional scaling technique.
+\end{itemize*}
+
+\medskip
+\textit{Biomass Feedstock Logistics}    \rdate{\textsc{Aug 2016 -- present}} 
+\begin{itemize*}
+	\item Identified different integrated biomass feedstock supply chain problems with structural insights.
+	\item Proposed a Dantzig-Wolfe decomposition framework for the integrated biomass feedstock supply chain problem.
+	\item Formulated a fleet management model in the design of a switchgrass-based bio-ethanol supply chain.
+\end{itemize*}
+
+\medskip
+\textit{Joint Supply Chain Operations}   \rdate{\textsc{Jun 2015 -- present}} 
+\begin{itemize*}
+	\item Proposed structural properties and solution methods (branch-and-bound and dynamic programming) for a joint production scheduling and shipping problem with a batching feature.
+	\item Identified the structure of the optimal shipping policy via a Lagrangian multiplier method for a joint production and shipping schedule of a vendor-buyer system. Proposed a dynamic programming-based algorithm.
+\end{itemize*}
+
+\medskip 
+\textit{Semiconductor Fab Simulation} \rdate{\textsc{Aug 2014 -- Dec 2014}} 
+\begin{itemize*}
+\item Built simulation models (using AutoMod) of the Automated Material Handling System (AMHS).
+\item Proposed a coding framework for simulating complex AMHS, which allows flexible and ease of adjustment of process sequences of lots.
+\item Implemented and analyzed different scenarios (such as releasing and dispatching rules) for the best scenario based on cycle time and throughput. Identified the potential bottleneck of the AMHS.
+\end{itemize*}
+
+\medskip
+\textit{Graduate Teaching Assistant} \rdate{\textsc{Aug 2014 -- May 2016}} 
+\begin{itemize*}
+	\item Prepared and instructed more than 10 different manufacturing and electrical labs.
+	\item Presented workshops for graduate level students in using simulation softwares (AutoMod and AutoSched).
+	\item Graded homeworks and exams, held office hours, and assisted other teaching tasks.
+\end{itemize*}
+
+\newpage \setlength\headheight{.5in}  
+
+\textbf{Volkswagen Automotive}, Shanghai, China \\
+\textit{Logistics Intern}    \rdate{Jul 2012 -- Aug 2012}
+\begin{itemize*}
+  \item Inquired suppliers the delivery costs of purchased parts, and updated the information in database.
+  \item Communicated with suppliers to implement a new Just-In-Time system.	
+\end{itemize*}
+
+
+
+ 
+
+
+\bigskip
+%-----------------Publications-------------------------------
+\mhead{Publications}%
+\hangindent=1em \textbf{Fangzhou Sun,} Subhash C. Sarin, and Yuqiang Wang. \emph{Integrated production and shipping scheduling for a single manufacturer and multiple customers}. Submitted to Omega. 
+
+\smallskip
+\hangindent=1em \textbf{Fangzhou Sun} and Subhash C. Sarin. \emph{A Joint Production and Delivery Schedule for a Single-Vendor-Single-Buyer System over Finite Horizon}. In preparation, target: European Journal of Operational Research. 
+
+\smallskip
+\hangindent=1em \textbf{Fangzhou Sun}, Rahul Ramachandran,  Maichel M. Aguayo, and Subhash C. Sarin. \emph{A taxonomic review of biomass feedstock supply chain problems}. In preparation, target: International Journal of Production Research.
+
+
+
+\bigskip
+%-----------------Presentations-------------------------------
+\mhead{Presentations}%
+%\emph{Conference paper}\\
+\par\vspace{-\baselineskip}
+
+\begin{itemize}
+	\item \emph{Introduction to AutoMod and AutoSched AP}. Workshop, Virginia Tech. \rdate{2016}
+	\item \emph{Integrated production and shipping scheduling for a single manufacturer and multiple customers}. \rdate{2015}
+			\\ INFORMS Annual Meeting, Philadelphia, PA. 
+\end{itemize}
+
+
+
+
+
+
+
+
+
+\bigskip
+%-----------------Other Experiences-------------------------------
+\mhead{Other \newline Experience}%
+\textbf{Vice President}, INFORMS VT Student Chapter \rdate{\textsc{Aug 2015 -- May 2016}}
+\begin{itemize*}
+	\item Managed finance and memberships of the student organization. 
+	\item Raised the average weekly seminar attendance by 30\% more than the previous academic year.
+	\item Won INFORMS 2016 Student Chapter Annual Award, Magna Cum Laude. 
+\end{itemize*}
+
+%\medskip
+%
+%\textbf{Variation Analysis for Wafer Data Using Regression and Kriging Methods}  \rdate{\textsc{Fall} 2013} 
+%\begin{itemize*}
+%\item Built a linear regression model to predict wafer thickness. Performed the variable selection by using BIC. 
+%\item Used Kriging method to model the wafer data. Compared the performance of Kriging and linear regression.
+%\end{itemize*}
+%
+%\medskip
+%\textbf{Music Management System Design} \rdate{\textsc{Spring} 2012} 
+%\begin{itemize*}
+%\item Designed the database structure. Coded the interface and the internal logic by C\# and MS SQL Server.
+%\end{itemize*}
+
+
+
+
+\bigskip
+%-----------------Honors & Awards-------------------------------
+\mhead{Selected \newline Awards \& \\ Honors}%
+First Place Award, IISE 2017 student case competition in Logistics and Supply Chain, \textit{IISE}.  \rdate{2017} \newline 
+Graduate Student Assembly Travel Fund, \emph{Virginia Tech}. \rdate{2015} \newline 
+Alpha Pi Mu, a national industrial engineering honor society, \textit{Virginia Tech}. \rdate{2014} \newline
+Various awards including: Outstanding Graduate, 1st Prize Scholarship, etc., \emph{Tongji University}. \rdate{2010 -- 2013} \newline
+Provincial 1st Prize, Chinese Physics Olympiad, \emph{Chinese Physics Society}. \rdate{2009}
+%(only top 45 awarded in Sichuan province)
+
+
+
+
+\end{document}
