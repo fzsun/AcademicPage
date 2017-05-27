@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-
-
-<img class="profile-picture" src="F_Sun.jpg">
+<div class="profile-container"> <img class="profile-picture" src="F_Sun.jpg"> <h1 class="name">Alan Doe</h1> <h3 class="tagline">Full Stack Developer</h3> </div>
 
 ## About Me
 
