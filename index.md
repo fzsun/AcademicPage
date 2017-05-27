@@ -5,7 +5,10 @@ layout: default
 
 <img class="profile-picture" src="F_Sun.jpg">
 
+## Contact
 
+* [my first name]@vt.edu
+* [LinkedIn](https://www.linkedin.com/in/fangzhousun)
 
 ## About Me
 
@@ -32,10 +35,7 @@ Contact
 * M.S., Industrial and Systems Engineering, Virginia Tech, 2016
 * B.E., Industrial Engineering, [Tongji University](http://www.tongji.edu.cn/), 2013
 
-## Contact
 
-* [my first name]@vt.edu
-* [LinkedIn](https://www.linkedin.com/in/fangzhousun)
 
 
 
