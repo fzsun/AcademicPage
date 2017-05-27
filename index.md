@@ -5,8 +5,6 @@ layout: default
 <div class="sidebar-wrapper">
             <div class="profile-container">
                 <img class="profile-img" src="F_Sun.jpg" alt="profile picture" />
-                <h1 class="name">Alan Doe</h1>
-                <h3 class="tagline">Full Stack Developer</h3>
             </div><!--//profile-container-->
             
             <div class="contact-container container-block">
