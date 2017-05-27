@@ -1,13 +1,6 @@
 ---
 layout: default
 ---
-<div class="profile-container"> <img class="profile-picture" src="F_Sun.jpg"> 
-<ul>
-  <li>[my first name]@vt.edu</li>
-  <li><a href="https://www.linkedin.com/in/fangzhousun">LinkedIn</a></li>
-</ul> 
-</div>
-
 
 <div class="sidebar-wrapper">
             <div class="profile-container">
