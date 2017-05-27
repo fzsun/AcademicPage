@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-<div class="profile-container"> <img class="profile-picture" src="F_Sun.jpg"> <p class="name">Alan Doe</p> <p class="tagline">Full Stack Developer</p> </div>
+<div class="profile-container"> <img class="profile-picture" src="F_Sun.jpg"> 
+<ul>
+  <li>[my first name]@vt.edu</li>
+  <li><a href="https://www.linkedin.com/in/fangzhousun">LinkedIn</a></li>
+</ul> 
+</div>
 
 ## About Me
 
