@@ -5,16 +5,19 @@ layout: default
 
 <img class="profile-picture" src="F_Sun.jpg">
 
-<div class="contact">
+
+
+## About Me
+
+I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engineering](http://www.ise.vt.edu/) at [Virginia Tech](http://www.vt.edu/), under supervision of [Dr. Subhash C. Sarin](http://www.ise.vt.edu/People/Faculty/Bios/Sarin_bio.html).  
+
+<div class="contact-info">
+Contact
 <ul>
   <li>[my first name]@vt.edu</li>
   <li><a href="https://www.linkedin.com/in/fangzhousun">LinkedIn</a></li>
 </ul>
 </div>
-
-## About Me
-
-I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engineering](http://www.ise.vt.edu/) at [Virginia Tech](http://www.vt.edu/), under supervision of [Dr. Subhash C. Sarin](http://www.ise.vt.edu/People/Faculty/Bios/Sarin_bio.html).  
 
 ## Research Interest
 
