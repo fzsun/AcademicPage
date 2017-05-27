@@ -25,14 +25,13 @@ I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engine
 ## Contact
 
 * [my first name]@vt.edu
-
 * [LinkedIn](https://www.linkedin.com/in/fangzhousun)
 
 
 
 <br><br><br><br>
 
-<sub>Last update: April 25, 2017</sub>
+<sub>Last update: May 27, 2017</sub>
 
 <br><br>
 
