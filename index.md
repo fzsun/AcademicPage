@@ -7,7 +7,7 @@ layout: default
 
 ## Contact
 
-* [my first name]@vt.edu
+* fangzhou@vt.edu
 * [LinkedIn](https://www.linkedin.com/in/fangzhousun)
 
 ## About
