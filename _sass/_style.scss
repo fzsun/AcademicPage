@@ -144,6 +144,16 @@ h2 {
     .navbar-ul {
         margin-top: 5px;
     }
+    .main-content {
+        margin: 0;
+        padding: 0;
+    }
+    .sidebar {
+        float: none;
+        max-width: 160px;
+        margin: auto;
+        padding: 5px;
+    }
 }
 
 @media (max-width: 580px) {
