@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: academic
 ---
 
 
 <img class="profile-picture" src="F_Sun.jpg">
+
+
 
 ## Contact
 
