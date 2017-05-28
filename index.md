@@ -23,7 +23,7 @@ I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engine
 
 
 
-<br><br><br><br>
+<br><br><br>
 
 <sub>Last update: May 27, 2017</sub>
 
