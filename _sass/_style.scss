@@ -88,14 +88,14 @@ h2 {
 }
 
 .main-content {
-    margin-right: 140px;
+    //margin-right: 140px;
     padding: 10px;
 }
 .sidebar {
     float: right;
     max-width: 160px;
     margin: 0;
-    padding: 10px;
+    padding: 10px 0 10px 20px;
 }
 .contact {
     display: block;
@@ -114,7 +114,7 @@ h2 {
 .profile-picture {
     display: block;
     height: $image-size;
-    margin: 10px;
+    margin: auto;
     border-radius: 50%;
     p & {
         padding: 0;
