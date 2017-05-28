@@ -93,7 +93,7 @@ h2 {
 }
 .sidebar {
     float: right;
-    max-width: 130px;
+    max-width: 160px;
     margin: 0;
     padding: 10px;
 }
@@ -107,8 +107,9 @@ h2 {
 }
 .contact .fa {
     margin-right: 5px;
-    font-size: 18px;
-    vertical-align: middle;
+    color: $accent
+    //font-size: 18px;
+    //vertical-align: middle;
 }
 .profile-picture {
     display: block;
