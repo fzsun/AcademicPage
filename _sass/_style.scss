@@ -103,8 +103,7 @@ h2 {
 .profile-picture {
     display: block;
     height: $image-size;
-    width: $image-size;
-    margin: 0;
+    margin: 10px;
     border-radius: 20%;
     p & {
         padding: 0;
