@@ -21,7 +21,7 @@
         {% assign url = site.url | append: site.baseurl | append: page.url %}
     {% endif %}
     <meta name="description" content="{{ desc }}">
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/plugins/font-awesome/css/font-awesome.css">
@@ -62,8 +62,8 @@
                 <img class="profile-picture" src="F_Sun.jpg">
                 <div class="contact">    
                     <ul>
-                      <li>fangzhou@vt.edu</li>
-                      <li><a href="https://www.linkedin.com/in/fangzhousun">LinkedIn</a></li>
+                       <li class="email"><i class="fa fa-envelope"></i><a href="mailto:alan.doe@website.com">alan.doe@website.com</a></li>
+                      <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank">linkedin.com/in/{{site.linkedin}}</a></li>
                     </ul>
                 </div>
             </div>
