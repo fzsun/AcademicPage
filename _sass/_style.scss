@@ -88,22 +88,27 @@ h2 {
 }
 
 .main-content {
-    margin-right: 130px;
+    margin-right: 140px;
     padding: 10px;
 }
 .sidebar {
     float: right;
-    max-width: 120px;
+    max-width: 130px;
     margin: 0;
     padding: 10px;
 }
 .contact {
     display: block;
 }
-.contact li {
+.contact ul > li {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+.contact .fa {
+    margin-right: 5px;
+    font-size: 18px;
+    vertical-align: middle;
 }
 .profile-picture {
     display: block;
