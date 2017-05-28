@@ -100,9 +100,9 @@ h2 {
 .contact {
     display: block;
 }
-.contact ul > li {
+.sidebar .contact ul > li {
     list-style: none;
-    margin: 0;
+    margin: 0 -20px;
     padding: 0;
 }
 .contact .fa {
