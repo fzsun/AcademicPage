@@ -11,7 +11,7 @@ I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engine
 * Operations research / applied mathematical programming 
 * Production planning and scheduling
 * Design and control of complex supply chain networks
-* Pricing and revenue management
+* Dynamic pricing and revenue management
 
 ## Education
 
@@ -25,7 +25,7 @@ I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engine
 
 <br><br><br>
 
-<sub>Last update: May 27, 2017</sub>
+<sub>Last update: Sep 18, 2017</sub>
 
 <br><br>
 
