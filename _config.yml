@@ -20,6 +20,6 @@ nav:
 
 plugins:
   - jekyll-last-modified-at
-
-
+gems:
+  - jekyll-last-modified-at
     
