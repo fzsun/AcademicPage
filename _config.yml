@@ -14,9 +14,11 @@ sass:
     style: compressed
     sass_dir: _sass
 
-data:
-    nav:
-        - name: "Resume"
-          link: "fsun-vita.pdf"
+nav:
+    - name: Resume
+      link: fsun-vita.pdf
+    - name: Resume2
+      link: fsun-vita.pdf
+
 
     

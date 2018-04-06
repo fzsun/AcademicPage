@@ -31,11 +31,11 @@
         <div class="navbar container">
             <a id="author-name" class="alignable pull-left" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
             <ul class="alignable pull-right navbar-ul">
-                {% for x in site.data.nav %}
+                {% for x in site.nav %}
                     {% if x.name == "Resume" %}
                         <li class="alignable pull-right nav-list"><a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
                     {% else %}
-                        <li class="alignable pull-right nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
+                        <li class="alignable pull-right nav-list"><a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
                     {% endif %}
                     {% if forloop.first == false %}
                         /
@@ -52,7 +52,7 @@
                 <div class="contact">    
                     <ul class="fa-ul">
                        <li><i class="fa-li fa fa-envelope"></i>{{site.email}}</li>
-                      <li><i class="fa-li fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank">/{{site.linkedin}}</a></li>
+                      <li><i class="fa-li fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank">{{site.linkedin}}</a></li>
                     </ul>
                 </div>
             </div>
