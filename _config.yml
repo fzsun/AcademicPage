@@ -12,4 +12,11 @@ tracking_id: UA-49265936-3
 
 sass:
     style: compressed
-    sass_dir: _sassw
+    sass_dir: _sass
+
+data:
+    nav:
+        - name: "Resume"
+          link: "fsun-vita.pdf"
+
+    
