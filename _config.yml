@@ -11,14 +11,12 @@ markdown: kramdown
 tracking_id: UA-49265936-3
 
 sass:
-    style: compressed
-    sass_dir: _sass
+  style: compressed
+  sass_dir: _sass
 
 nav:
-    - name: Resume
-      link: fsun-vita.pdf
-    - name: Resume3
-      link: fsun-vita.pdf
+        #  - name: Resume
+        #    link: fsun-vita.pdf
 
 
     
