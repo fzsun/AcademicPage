@@ -25,7 +25,7 @@ I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engine
 
 <br><br><br>
 
-<sub>Last update: {{ site.time | date: "%B %-d, %Y %s"}}</sub>
+<sub>Last update: {{ site.time | date: "%B %-d, %Y"}}</sub>
 
 <br><br><br>
 
