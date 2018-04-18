@@ -18,9 +18,4 @@ sass:
 nav:
         #  - name: Resume
         #    link: fsun-vita.pdf
-
-plugins:
-  - jekyll-last-modified-at
-gems:
-  - jekyll-last-modified-at 
     
