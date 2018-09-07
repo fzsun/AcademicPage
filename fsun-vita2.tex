@@ -1,0 +1,262 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\def\myauthor{Fangzhou Sun}
+\def\mytitle{fsun-vita}
+\def\myemail{fzsun@vt.edu}
+\def\myphone{(540) 750-0370}
+\def\myweb{sun.fangzhou.me}
+\def\mykeywords{
+  fangzhou sun,
+  resume, 
+  curriculum, 
+  vita, 
+  curriculum vita, 
+  cv
+}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage[
+  pdftex,
+  ocgcolorlinks,
+  urlcolor={[rgb]{0,0,0.54}},
+  unicode,
+  plainpages=false,
+  pdfpagelabels,
+  pdftitle={\mytitle},
+  pdfauthor={\myauthor},
+  pdfkeywords={\mykeywords}
+]{hyperref}
+
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage{url}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\setlength{\tabcolsep}{0in}
+\setlength{\parskip}{0em} % paragraph spacing
+\linespread{1.1} % line spacing
+\setlist[itemize]{leftmargin=\dimexpr 1em, noitemsep, topsep=0pt, after=\vspace{.2ex}} % itemize spacing
+\renewcommand{\labelitemi}{-} 
+\renewcommand{\labelitemii}{$\circ$} 
+
+%-------------------------
+% Pick a font: http://www.tug.dk/FontCatalogue/seriffonts.html
+\usepackage[T1]{fontenc}
+\usepackage{kpfonts}
+
+
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}l@{\extracolsep{\fill}}r}
+\multirow{2}{*}{\huge \scshape \myauthor} & \small 1740 Donlee Dr., & \href{mailto:\myemail}{\small \myemail}\\
+   & \small Blacksburg, VA 24060 & \href{tel:\myphone}{\small \myphone} 
+\end{tabular*}
+\vspace{-3ex}
+
+%-----------Summary-----------------
+\section{Summary}
+\begin{itemize}
+	\item 4+ years of experience on optimal control of manufacturing/logistics systems and revenue management.
+	\item Over 5 hands-on projects in building optimization/simulation/statistics-based decision support tools. 
+	\item Energetic self starter, outstanding analytical ability and strong communication skills.
+\end{itemize}
+
+%-----------EDUCATION-----------------
+\section{Education}
+\textbf{Virginia Polytechnic Institute and State University (Virginia Tech)}, Blacksburg, VA \\ 
+
+\begin{itemize}
+	\item {Ph.D. in \href{https://www.ise.vt.edu/}{Operations Research}}  (GPA: 3.92/4.00)  \hfill{\textsc{Sep} 2018 (\textsc{expected})}
+	
+	 \begin{itemize}[after=]
+		\item Advisor: \href{https://www.ise.vt.edu/People/Faculty/Bios/Sarin_bio.html}{Dr. Subhash C. Sarin}.
+	\end{itemize}
+	\item  {M.S. in Industrial and Systems Engineering}  (GPA: 3.90/4.00)\hfill {2016} 
+\end{itemize}
+
+\textbf{Tongji University,} Shanghai, China 
+\begin{itemize}
+	\item {B.E. in {Industrial Engineering}} (GPA: 4.64/5.00; Rank: 2/55)   \hfill{2013}  
+\end{itemize}
+
+
+%--------Computer SKILLS------------
+\section{Computer Skills}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{1in}}l}
+  \textbf{~~~Programming Languages:} C$++$, Python, VBA, C\#. &  \textbf{Database:} SQL, Access. \\
+ \textbf{~~~Optimization:} CPLEX/OPL, AMPL. &  \textbf{Simulation:} AutoMod, ProModel, Simio. \\
+ \textbf{~~~Scientific Computing:} R, Mathematica. & \textbf{Others:} Git, AutoCAD.
+\end{tabular*}
+
+%-----------Graduate Coursework-----------------
+\section{Graduate Coursework}
+\hangindent=1.5em \textbf{Operations Research:} Linear/Nonlinear/Integer/Dynamic Programming, Scheduling and Sequencing Theory, Random Processes, Simulation.
+	
+\hangindent=1.5em \textbf{Statistics \& Mathematics:} Probability Theory, Statistical Inference, Statistical Learning,  Real Analysis.
+
+\hangindent=1.5em \textbf{Manufacturing \& Logistics:} Manufacturing Systems Engineering, Production Planning \& Control, Lean Manufacturing, Semiconductor Manufacturing, Inventory and Operations Management.
+
+%-----------EXPERIENCE-----------------
+\section{Related Experience}
+
+    \textbf{PROS,} Houston, TX (a pricing and revenue management solution company)\\
+\textbf{Scientist Intern (Optimization)} \hfill{\textsc{Jun 2017 -- Aug 2017}} 
+
+\textit{Pareto Frontier in Revenue Management} \textsuperscript{[1]}
+\begin{itemize}
+	\item Proposed a constrained stochastic dynamic programming-based approach to generate Pareto frontier of conflicting airline objectives (expected revenue vs. load factor).
+\end{itemize}
+
+ 
+\textit{Airline Customer Value Study}
+\begin{itemize}
+	\item Built 15+ automation tools (Python and VBA) on analyzing past flight data to estimate customer potential revenue if switch to network-based products. 
+	\item Optimized the code and reduced run time by 97\%, saving weeks of overall analysis time. 
+%	\item The tools will be used for future value studies, and continue to benefit the company.
+\end{itemize}
+
+ 
+\textit{3-day Hackathon}
+\begin{itemize}
+	\item Proposed and developed an opportunity-based dynamic flight destination recommendation engine. 
+	\item Predicted market opportunities using ridge regression with time series models.
+\end{itemize}
+
+
+\medskip
+\textbf{Virginia Tech}, Blacksburg, VA  \\
+\textbf{(Winner)}\textit{ IISE Student Case Competition in Logistics and Supply Chain}  \hfill{\textsc{Feb 2017 -- Mar 2017}}
+\begin{itemize}
+	\item Proposed a two-stage approach for the strategic network design and the operational decisions. 
+	\item Proposed tight mathematical formulations and used decomposition to accelerate. Computational test revealed a reduction of the solution time by $10^3 +$ times.
+	\item Coded a computer decision support tool based on our proposed approach (C$++$ with CPLEX). 
+\end{itemize}
+
+ 
+\textit{Biomass Feedstock Logistics}    \hfill{\textsc{Aug 2016 -- present}} 
+\begin{itemize}
+	\item Identified different integrated biomass feedstock supply chain problems with structural insights.
+	\item Proposed a Dantzig-Wolfe decomposition framework for the integrated biomass feedstock supply chain problem.
+	\item Formulated a fleet management model in the design of a switchgrass-based bio-ethanol supply chain.
+\end{itemize}
+
+%\newpage
+ 
+\textit{Joint Supply Chain Operations} \textsuperscript{[3,4]}   \hfill{\textsc{Jun 2015 -- Jun 2017}} 
+\begin{itemize}
+	\item Identified the structure of the optimal shipping policy via a Lagrangian multiplier method for joint scheduling of a vendor-buyer system. Proposed a dynamic programming-based algorithm.
+	\item Proposed solution methods (both exact and heuristic) for a joint production scheduling and shipping problem with a batching feature.
+\end{itemize}
+
+ 
+
+  
+\textit{Semiconductor Fab Simulation} \hfill{\textsc{Aug 2014 -- Dec 2014}} 
+\begin{itemize}
+\item Built simulation models (using AutoMod) of the Automated Material Handling System (AMHS).
+\item Proposed a coding framework for simulating complex AMHS, allowing flexibly adjusted process sequences.
+\item Analyzed different scenarios (multiple releasing and dispatching rules) based on cycle time and throughput. 
+\end{itemize}
+
+  
+\textit{Graduate Teaching Assistant} \hfill{\textsc{Aug 2014 -- May 2016}} 
+\begin{itemize}
+	\item Prepared and instructed 10+ different manufacturing and electrical labs.
+	\item Presented workshops for graduate level students in using simulation softwares (AutoMod and AutoSched).
+	\item Graded homework and exams, held office hours, and assisted other teaching tasks.
+\end{itemize}
+
+
+
+\medskip
+\textbf{Volkswagen Automotive}, Shanghai, China  \\
+\textbf{Logistics Intern} \hfill{Jul 2012 -- Aug 2012}
+\begin{itemize}
+  \item Inquired suppliers the delivery costs of purchased parts, and updated the information in database.
+  \item Communicated with suppliers to implement a new Just-In-Time system.	
+\end{itemize}
+
+
+
+%-----------Publications-----------------
+\section{Publications}
+\hangindent=1.5em [1] \textbf{Fangzhou Sun,} Wei Wang, and Darius Walczak. \emph{On generating efficient frontier for expected profit contribution and resource utilization}. In preparation. 
+
+\hangindent=1.5em [2] \textbf{Fangzhou Sun}, Rahul Ramachandran,  Maichel M. Aguayo, and Subhash C. Sarin. \emph{A taxonomic review of biomass feedstock supply chain problems}. In preparation, target: International Journal of Production Research.
+
+\hangindent=1.5em [3] \textbf{Fangzhou Sun} and Subhash C. Sarin. \emph{A Joint Production and Delivery Schedule for a Single-Vendor Single-Buyer System over Finite Horizon}. In preparation, target: European Journal of Operational Research.
+ 
+\hangindent=1.5em [4] \textbf{Fangzhou Sun,} Subhash C. Sarin, and Yuqiang Wang. \emph{Integrated production and shipping scheduling for a single manufacturer and multiple customers}. Submitted to Journal of Scheduling. 
+
+%-----------Presentations-----------------
+\section{Presentations}
+\begin{itemize}
+	\item \emph{Introduction to AutoMod and AutoSched AP}. Workshop, Virginia Tech. \hfill{2016}
+	\item \emph{Integrated production and shipping scheduling for a single manufacturer and multiple customers}. \hfill{2015}
+			\\ INFORMS Annual Meeting, Philadelphia, PA. 
+\end{itemize}
+
+%-----------Other Experience-----------------
+\section{Other Experience}
+\textbf{Vice President}, INFORMS VT Student Chapter \hfill{\textsc{Aug 2015 -- May 2016}}
+\begin{itemize}
+	\item Managed finance and memberships of the student organization. 
+	\item Raised average weekly seminar attendance by 30\% more than the previous academic year.
+	\item Won INFORMS 2016 Student Chapter Annual Award, Magna Cum Laude. 
+\end{itemize}
+
+%--------Awards and Honors------------
+\section{Selected Awards and Honors}
+First Place Award, IISE 2017 student case competition in Logistics and Supply Chain, \textit{IISE}.  \hfill{2017} \newline 
+Graduate Student Assembly Travel Fund, \emph{Virginia Tech}. \hfill{2015} \newline 
+Alpha Pi Mu, a national industrial engineering honor society, \textit{Virginia Tech}. \hfill{2014} \newline
+Various awards including: Outstanding Graduate, 1st Prize Scholarship, etc., \emph{Tongji University}. \hfill{2010 -- 2013} \newline
+Provincial 1st Prize, Chinese Physics Olympiad, \emph{Chinese Physics Society}. \hfill{2009
+%-------------------------------------------
+
+\end{document}
