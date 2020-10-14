@@ -4,7 +4,7 @@ layout: academic
 
 ## About
 
-I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engineering](http://www.ise.vt.edu/) at [Virginia Tech](http://www.vt.edu/) under the supervision of Professor [Subhash C. Sarin](http://www.ise.vt.edu/People/Faculty/Bios/Sarin_bio.html).  
+I earned my Ph.D. degree in the [Grado Department of Industrial and Systems Engineering](http://www.ise.vt.edu/) at [Virginia Tech](http://www.vt.edu/) under the supervision of Professor [Subhash C. Sarin](http://www.ise.vt.edu/People/Faculty/Bios/Sarin_bio.html).  
 
 ## Research Interest
 
@@ -15,7 +15,7 @@ I am a Ph.D. candidate in the [Grado Department of Industrial and Systems Engine
 
 ## Education
 
-* Ph.D., Operations Research, Virginia Tech, Fall 2018 (expected)
+* Ph.D., Operations Research, Virginia Tech, 2019
 * M.S., Industrial and Systems Engineering, Virginia Tech, 2016
 * B.E., Industrial Engineering, Tongji University, 2013
 
